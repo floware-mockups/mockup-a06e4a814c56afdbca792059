@@ -1,0 +1,396 @@
+{
+  "title": "Agenda appuntamenti allo sportello tributi",
+  "description": "Gestione delle fasce di ricevimento del martedì e giovedì, prenotazioni, argomenti e operatori assegnati. Tutti i dati sono di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "riepilogo-settimanale",
+      "title": "Riepilogo settimanale",
+      "description": "Panoramica degli appuntamenti della settimana e delle fasce disponibili allo sportello.",
+      "metrics": [
+        {
+          "label": "Appuntamenti",
+          "value": "12"
+        },
+        {
+          "label": "Martedì",
+          "value": "7"
+        },
+        {
+          "label": "Giovedì",
+          "value": "5"
+        },
+        {
+          "label": "Da confermare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Contribuente",
+        "Argomento",
+        "Stato",
+        "Operatore"
+      ],
+      "rows": [
+        [
+          "Martedì",
+          "09:00",
+          "Lumo Riva",
+          "TARI",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Martedì",
+          "09:30",
+          "Vela Fonti",
+          "IMU",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Martedì",
+          "10:00",
+          "Nubi Querce",
+          "Rimborso",
+          "Da confermare",
+          "Nubi Serra"
+        ],
+        [
+          "Martedì",
+          "10:30",
+          "Timo Brina",
+          "TARI",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Martedì",
+          "11:00",
+          "Vela Rugiada",
+          "IMU",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Martedì",
+          "11:30",
+          "Lumo Salice",
+          "Rimborso",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Martedì",
+          "12:00",
+          "Nubi Lieve",
+          "TARI",
+          "Da confermare",
+          "Nubi Serra"
+        ],
+        [
+          "Giovedì",
+          "09:00",
+          "Timo Aurora",
+          "IMU",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Giovedì",
+          "09:30",
+          "Lumo Cedro",
+          "Rimborso",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Giovedì",
+          "10:00",
+          "Vela Bosco",
+          "TARI",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Giovedì",
+          "10:30",
+          "Nubi Brina",
+          "IMU",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Giovedì",
+          "11:00",
+          "Timo Riva",
+          "Rimborso",
+          "Confermato",
+          "Timo Lago"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "appuntamenti",
+      "title": "Appuntamenti",
+      "description": "Elenco filtrabile delle prenotazioni, con possibilità di consultare stato e assegnazione dell’operatore.",
+      "metrics": [
+        {
+          "label": "In agenda",
+          "value": "12"
+        },
+        {
+          "label": "TARI",
+          "value": "4"
+        },
+        {
+          "label": "IMU",
+          "value": "4"
+        },
+        {
+          "label": "Rimborso",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Contribuente",
+        "Argomento",
+        "Stato",
+        "Operatore"
+      ],
+      "rows": [
+        [
+          "Martedì",
+          "09:00",
+          "Lumo Riva",
+          "TARI",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Martedì",
+          "09:30",
+          "Vela Fonti",
+          "IMU",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Martedì",
+          "10:00",
+          "Nubi Querce",
+          "Rimborso",
+          "Da confermare",
+          "Nubi Serra"
+        ],
+        [
+          "Martedì",
+          "10:30",
+          "Timo Brina",
+          "TARI",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Martedì",
+          "11:00",
+          "Vela Rugiada",
+          "IMU",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Martedì",
+          "11:30",
+          "Lumo Salice",
+          "Rimborso",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Martedì",
+          "12:00",
+          "Nubi Lieve",
+          "TARI",
+          "Da confermare",
+          "Nubi Serra"
+        ],
+        [
+          "Giovedì",
+          "09:00",
+          "Timo Aurora",
+          "IMU",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Giovedì",
+          "09:30",
+          "Lumo Cedro",
+          "Rimborso",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Giovedì",
+          "10:00",
+          "Vela Bosco",
+          "TARI",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Giovedì",
+          "10:30",
+          "Nubi Brina",
+          "IMU",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Giovedì",
+          "11:00",
+          "Timo Riva",
+          "Rimborso",
+          "Confermato",
+          "Timo Lago"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-prenotazione",
+      "title": "Nuova prenotazione",
+      "description": "Inserimento di un appuntamento nelle fasce disponibili del martedì e giovedì.",
+      "metrics": [
+        {
+          "label": "Fasce settimanali",
+          "value": "12"
+        },
+        {
+          "label": "Giorni di ricevimento",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Contribuente",
+        "Argomento",
+        "Giorno",
+        "Orario",
+        "Stato",
+        "Operatore"
+      ],
+      "rows": [
+        [
+          "Lumo Riva",
+          "TARI",
+          "Martedì",
+          "09:00",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Vela Fonti",
+          "IMU",
+          "Martedì",
+          "09:30",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Nubi Querce",
+          "Rimborso",
+          "Martedì",
+          "10:00",
+          "Da confermare",
+          "Nubi Serra"
+        ],
+        [
+          "Timo Brina",
+          "TARI",
+          "Martedì",
+          "10:30",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Vela Rugiada",
+          "IMU",
+          "Martedì",
+          "11:00",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Lumo Salice",
+          "Rimborso",
+          "Martedì",
+          "11:30",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Nubi Lieve",
+          "TARI",
+          "Martedì",
+          "12:00",
+          "Da confermare",
+          "Nubi Serra"
+        ],
+        [
+          "Timo Aurora",
+          "IMU",
+          "Giovedì",
+          "09:00",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Lumo Cedro",
+          "Rimborso",
+          "Giovedì",
+          "09:30",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Vela Bosco",
+          "TARI",
+          "Giovedì",
+          "10:00",
+          "Confermato",
+          "Timo Lago"
+        ],
+        [
+          "Nubi Brina",
+          "IMU",
+          "Giovedì",
+          "10:30",
+          "Confermato",
+          "Nubi Serra"
+        ],
+        [
+          "Timo Riva",
+          "Rimborso",
+          "Giovedì",
+          "11:00",
+          "Confermato",
+          "Timo Lago"
+        ]
+      ],
+      "form": [
+        "Contribuente",
+        "Argomento",
+        "Giorno",
+        "Orario",
+        "Stato",
+        "Operatore"
+      ]
+    }
+  ]
+}
